@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Venue</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/ie7.css" type="text/css">
+	<![endif]-->
+    <style>
+      #map_canvas {
+        width: 500px;
+        height: 400px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(28.472935, 77.48874599999999),
+          zoom: 17,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<span>A healthy heart means a healthy life...</span>
+				
+			</div>
+			<ul>
+				<li>
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="about.html">about</a>
+				</li>
+				<li>
+					<a href="doctors.html">our doctors</a>
+				</li>
+				<li>
+					<a href="services.html">services</a>
+				</li>
+				<li>
+					<a href="forms.html">forms</a>
+				</li>
+				<li class="selected">
+					<a href="contact.html">contact</a>
+				</li>
+				<li>
+					<a href="blog.html">blog</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div class="content">
+			<div id="section">
+				<h2>Venue</h2>
+				<p><b>Way through GoogleAPI</b></p>
+                <div id="map_canvas"></div>
+				<p><b>Our Campus</b> <img src="clgfront.jpg" alt="" width="570" height="280">			          </p>
+<form action="index.html">
+					<b>send us a message</b> <span>This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free.</span>
+					<input type="text" name="fname" id="fname" value="Name">
+					<input type="text" name="email" id="email" value="Email Addess">
+					<select name="offices">
+						<option>Choose Clinic Office</option>
+					</select>
+					<textarea name="message" id="message" cols="30" rows="10">Write Message Here...</textarea>
+					<input type="submit" name="send" id="send" value="send message">
+				</form>
+			</div>
+			<div id="sidebar">
+				<div class="search">
+					<h3>search</h3>
+					<form action="index.html">
+						<input type="text" name="search" id="search" value="Search here...">
+						<input type="hidden" name="submit" id="submitBtn" value="">
+					</form>
+				</div>
+				<div class="contact">
+					<h3>contact information</h3>
+					<ul class="first">
+						<li class="office">
+							<b>Conference Venue</b><span>Knoweldge Park III, Greater Noida, India</span>						</li>
+						<li class="telephone">
+							812-607-0820						</li>
+						<li class="fax">
+							812-607-0820						</li>
+						<li class="email">
+						<a href="http://www.freewebsitetemplates.com/misc/contact">iccs2015@glbitm.org</a></li>
+					    <li class="email">icss2015@gmail.com </li>
+					</ul>
+			  <ul>
+						<li class="office">
+							<b> Matura Campus</b><span>Mathura, India</span>
+						</li>
+						<li class="telephone">812-607-0820
+						</li>
+						<li class="fax">
+							804-417-2483
+						</li>
+						<li class="email">
+							<a href="http://www.freewebsitetemplates.com/misc/contact">info@glbitm.org</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Route Maps:</h3>
+				  <span>Airway<span>Delhi Airport to G. L. Bajaj Institute of Technology &amp; Management.</span></span> <span>Saturdays &amp; Sundays <span>7:00 a.m. - 12:00 p.m.</span></span>				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>
+				Copyright &copy; <a href="index.html">Cardio Center</a>
+			</p>
+			<ul>
+				<li>
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="about.html">about</a>
+				</li>
+				<li>
+					<a href="doctors.html">our doctors</a>
+				</li>
+				<li>
+					<a href="services.html">services</a>
+				</li>
+				<li>
+					<a href="forms.html">forms</a>
+				</li>
+				<li>
+					<a href="contact.html">contact</a>
+				</li>
+				<li>
+					<a href="blog.html">blog</a>
+				</li>
+			</ul>
+			<div>
+				<span>stay connected:</span>
+				<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+				<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+				<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

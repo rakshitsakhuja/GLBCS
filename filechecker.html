@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Upload Check</title>
+<script type="text/javascript">
+
+function vali_type()
+{ 
+ var id_value = document.getElementById('up').value;
+ 
+ if(id_value != '')
+ { 
+  var valid_extensions = /(.doc|.docx|.pdf)$/i;   
+  if(valid_extensions.test(id_value))
+  { 
+   alert('OK');
+  }
+  else
+  {
+   alert('Invalid File')
+  }
+ } 
+}
+</script>
+</head>
+
+<body>
+
+<input type="file" name="up" id="up"
+onBlur="vali_type()" />
+</body>
+</html>

@@ -1,0 +1,153 @@
+<%-- 
+    Document   : iccs2015loginpanel4advmangerr
+    Created on : Jun 15, 2014, 7:41:15 AM
+    Author     : Naveen
+--%>
+
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>iccs2015 login panel4Advisors, Management</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/ie7.css" type="text/css">
+	<![endif]-->
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<div align="center"><span>International Conference on Cybernatics &amp; Security</span>
+				    
+				    <span></span>
+			      </div>
+			</div>
+	  <ul>
+				<li>
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="#">ICCS 2015</a>
+				</li>
+				<li>
+					<a href="iccs2015venue.html">CONFERENCE VENUE</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div id="content">
+			<div id="sidebar">
+				<h3>Services</h3>
+				<ul>
+					<li class="selected collapse">
+						<a href="#">Review Papers</a>
+						<ul>
+							<li class="active">
+								<a href="#">Techinal Adivorsy</a>
+							</li>
+							<li>
+								<a href="#">Keynote Speakers</a>
+							</li>
+							<li>
+								<a href="#">Review Analysis</a>
+							</li>
+						</ul>
+				  </li>
+<li>
+						<a href="#">Conference Management</a>					</li>
+			  <li>
+						<a href="#">1 Update later</a>					</li>
+			  <li>
+						<a href="#">2 Update Later</a>
+					</li>
+				</ul>
+			</div>
+			<div id="section">
+			  <h3>Login panel</h3>
+				<form name="form1" method="post" action="logincheckadv.jsp">
+                  <p>
+                    <label>Account Type: 
+                    <select name="menu1" id="menu1">
+                    <option>Select A/C Type</option>
+                    <option>Keynote Speaker</option>
+                    <option>Mangement</option>
+                    <option>Techincal Advisor</option>
+                    
+                    </select>
+                    </label>
+                  </p>
+                  <p><label>User ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input name="userid1" type="text" size="15" maxlength="40">
+                      </label></p>
+                  <p>
+                    <label>Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="password" name="password1" id="password1">
+                    </label>
+                  </p>
+                  <p>&nbsp;</p><font color="red"><i><blink>Invalid Login And password</blink></I></font>
+                  <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="button1" id="button1" value="Sign In">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" name="button2" id="button2" value="Reset">
+                  </p>
+                  <p><br>
+                    
+                      </p>
+				</form>
+<p>
+					<a href="#">Forget password</a>
+				</p>
+				<div>
+					<div>
+						<b><a href="heart-monitoring-procedure.html">Review papers</a></b>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in vestibulum mi. Donec felis nunc, placerat quis varius quis, posuere sed velit.
+						</p>
+						<a href="#" class="more">more info</a>
+					</div>
+					<div>
+						<b><a href="#">Conference management</a></b>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in vestibulum mi. Donec felis nunc, placerat quis varius quis, posuere sed velit.
+						</p>
+						<a href="#" class="more">more info</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>
+				Copyright &copy; <a href="index.html">ICCS 2015</a>
+			</p>
+			<ul>
+				<li>
+					<a href="#">ICCS 2015</a>
+				</li>
+				
+				<li>
+					<a href="#">PAPER SUBMISSION</a>
+				</li>
+				<li>
+					<a href="#">VENUE</a>
+				</li>
+							</ul>
+			<div>
+				<span>stay connected:</span>
+				<a href="http://facebook.com/ICCS2015/" id="facebook">facebook</a>
+				<a href="http://twitter.com/ICCS2015/" id="twitter">twitter</a>
+				<a href="http://googleplus.com/ICCS2015/" id="googleplus">googleplus</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
